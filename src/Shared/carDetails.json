@@ -1,0 +1,210 @@
+{
+  "carDetails": [
+    {
+      "label": "Listing Title",
+      "name": "listingTitle",
+      "fieldType": "text",
+      "required": true,
+      "column": 2,
+      "icon": "FaClipboardList"
+    },
+    {
+      "label": "Tagline",
+      "name": "tagline",
+      "fieldType": "text",
+      "column": 2,
+      "icon": "FaTag"
+    },
+    {
+      "label": "Original Price",
+      "name": "originalPrice",
+      "fieldType": "text",
+      "column": 1,
+      "icon": "FaDollarSign"
+    },
+    {
+      "label": "Selling Price",
+      "name": "sellingPrice",
+      "fieldType": "text",
+      "required": true,
+      "column": 1,
+      "icon": "FaMoneyBillAlt"
+    },
+    {
+      "label": "Category",
+      "name": "category",
+      "fieldType": "dropdown",
+      "options": ["Sedan", "SUV", "Truck", "Coupe", "Convertible", "Van", "Hatchback","Electric","Hybrid"],
+      "required": true,
+      "column": 1,
+      "icon": "FaCar"
+    },
+    {
+      "label": "Condition",
+      "name": "condition",
+      "fieldType": "dropdown",
+      "required": true,
+      "options": ["New", "Used", "Certified Pre-Owned"],
+      "column": 1,
+      "icon": "FaCheckCircle"
+    },
+    
+    {
+      "label": "Make",
+      "name": "make",
+      "fieldType": "dropdown",
+      "required": true,
+      "options": [
+        "Toyota",
+        "Honda",
+        "Ford",
+        "Chevrolet",
+        "Nissan",
+        "BMW",
+        "Mercedes-Benz",
+        "Audi",
+        "Tesla",
+        "Volkswagen",
+        "Hyundai",
+        "Kia",
+        "Lexus",
+        "Subaru",
+        "Mazda",
+        "Jeep",
+        "Dodge",
+        "Ram",
+        "GMC",
+        "Volvo",
+        "Land Rover",
+        "Jaguar",
+        "Porsche",
+        "Fiat",
+        "Alfa Romeo",
+        "Mitsubishi",
+        "Infiniti",
+        "Acura",
+        "Mini",
+        "Buick",
+        "Cadillac",
+        "Chrysler",
+        "Lincoln",
+        "Maserati",
+        "Bentley",
+        "Rolls-Royce",
+        "Aston Martin",
+        "Ferrari",
+        "Lamborghini",
+        "McLaren",
+        "Pagani",
+        "Bugatti"
+      ],
+      "column": 1,
+      "icon": "FaIndustry"
+    },
+    {
+      "label": "Model",
+      "name": "model",
+      "fieldType": "text",
+      "required": true,
+      "column": 1,
+      "icon": "FaCarSide"
+    },
+    {
+      "label": "Year",
+      "name": "year",
+      "fieldType": "number",
+      "required": true,
+      "column": 1,
+      "icon": "FaCalendarAlt"
+    },
+    {
+      "label": "Drive Type",
+      "name": "driveType",
+      "fieldType": "dropdown",
+      "options": ["FWD", "RWD", "AWD", "4WD"],
+      "required": true,
+      "column": 1,
+      "icon": "FaRoad"
+    },
+    {
+      "label": "Transmission",
+      "name": "transmission",
+      "fieldType": "dropdown",
+      "options": ["Automatic", "Manual", "CVT"],
+      "required": true,
+      "column": 1,
+      "icon": "FaCogs"
+    },
+    {
+      "label": "Fuel Type",
+      "name": "fuelType",
+      "fieldType": "dropdown",
+      "options": ["Petrol", "Diesel", "Electric", "Hybrid"],
+      "required": true,
+      "column": 1,
+      "icon": "FaGasPump"
+    },
+    {
+      "label": "Mileage",
+      "name": "mileage",
+      "fieldType": "number",
+      "required": true,
+      "column": 1,
+      "icon": "FaTachometerAlt"
+    },
+    {
+      "label": "Engine Size",
+      "name": "engineSize",
+      "fieldType": "text",
+      "column": 1,
+      "icon": "FaWrench"
+    },
+    {
+      "label": "Cylinder",
+      "name": "cylinder",
+      "fieldType": "number",
+      "column": 1,
+      "icon": "FaCircle"
+    },
+    {
+      "label": "Color",
+      "name": "color",
+      "fieldType": "dropdown",
+      "required": true,
+      "options": ["Black", "Blue", "Gold", "Pink", "Red", "Silver", "White"],
+      "column": 2,
+      "icon": "FaPalette"
+    },
+    {
+      "label": "Door",
+      "name": "door",
+      "fieldType": "number",
+      "required": true,
+      "column": 1,
+      "icon": "FaDoorClosed"
+    },
+    {
+      "label": "VIN",
+      "name": "vin",
+      "fieldType": "text",
+      "column": 1,
+      "icon": "FaIdCard"
+    },
+    {
+      "label": "Offer Type",
+      "name": "offerType",
+      "fieldType": "dropdown",
+      "options": ["Buy", "Hot Offer", "Sell", "Urgent"],
+      "column": 2,
+      "icon": "FaTags"
+    },
+    {
+      "label": "Listing Description",
+      "name": "listingDescription",
+      "fieldType": "textarea",
+      "required": true,
+      "column": 2,
+      "icon": "FaFileAlt"
+    }
+  ]
+}
